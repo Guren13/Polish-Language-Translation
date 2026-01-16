@@ -67,17 +67,17 @@ assetEditor.buttons.createAndUseModel = Create and Use Model
 
 # === assetTypes ===
 
-assetTypes.AmbienceFX.title = Ambience Effects
-assetTypes.ItemDropList.title = Item Drop List
-assetTypes.EntityEffect.title = Entity Effect
-assetTypes.EntityStatType.title = Entity Stat Type
-assetTypes.Trail.title = Trail
-assetTypes.Environment.title = Environment
-assetTypes.GameplayConfig.title = Gameplay Config
-assetTypes.ItemPlayerAnimations.title = Item Player Animations
-assetTypes.FluidFX.title = Fluid Effects
-assetTypes.BlockBoundingBoxes.title = Block Bounding Boxes
-assetTypes.BlockMigration.title = Block Migration
+assetTypes.AmbienceFX.title = Efekty W Tle
+assetTypes.ItemDropList.title = Lista Wypadających Przedmiotów
+assetTypes.EntityEffect.title = Efekty Istot
+assetTypes.EntityStatType.title = Rodzaj Statystyk Istot
+assetTypes.Trail.title = Ścieżka
+assetTypes.Environment.title = Środowisko
+assetTypes.GameplayConfig.title = Konfiguracja Rozgrywki
+assetTypes.ItemPlayerAnimations.title = Animacje Przedmiotów Gracza
+assetTypes.FluidFX.title = Efekty Wody
+assetTypes.BlockBoundingBoxes.title = Blokowe pola ograniczające
+assetTypes.BlockMigration.title = Zablokuj Migracje
 assetTypes.BlockParticleSet.title = Block Particle Set
 assetTypes.BlockBreakingDecal.title = Block Breaking Decal
 assetTypes.BlockSet.title = Block Set
@@ -130,50 +130,50 @@ barter.customUI.barterPage.inStock = Stock: {count}
 
 # === benchCategories ===
 
-benchCategories.workbench.crafting = Crafting
-benchCategories.workbench.survival = Survival
-benchCategories.workbench.housing = Housing
-benchCategories.workbench.tools = Tools
-benchCategories.furniture.seasonal = Seasonal
-benchCategories.furniture.storage = Storage
-benchCategories.furniture.lighting = Lighting
-benchCategories.furniture.beds = Beds
+benchCategories.workbench.crafting = Wytwarzanie
+benchCategories.workbench.survival = Przetrwanie
+benchCategories.workbench.housing = Mieszkanie
+benchCategories.workbench.tools = Narzędzia
+benchCategories.furniture.seasonal = Sezonowe
+benchCategories.furniture.storage = Magazyn
+benchCategories.furniture.lighting = Oświetlenie
+benchCategories.furniture.beds = Łóżka
 benchCategories.furniture.pottery = Pottery
 benchCategories.furniture.textiles = Textiles
-benchCategories.furniture.village_walls = Wooden Walls
-benchCategories.furniture.misc = Misc
-benchCategories.workbench.tinkering = Tinkering
-benchCategories.farmingbench.farming = Farming
-benchCategories.farmingbench.decorative = Decorative
-benchCategories.farmingbench.seeds = Seeds
-benchCategories.farmingbench.planters = Planters
-benchCategories.farmingbench.saplings = Saplings
-benchCategories.farmingbench.essence = Essence of Life
+benchCategories.furniture.village_walls = Drewniane Ściany
+benchCategories.furniture.misc = Różne
+benchCategories.workbench.tinkering = Majsterkowanie
+benchCategories.farmingbench.farming = Rolnictwo
+benchCategories.farmingbench.decorative = Dekoracyjne
+benchCategories.farmingbench.seeds = Nasiona
+benchCategories.farmingbench.planters = Doniczki
+benchCategories.farmingbench.saplings = Sadzonki
+benchCategories.farmingbench.essence = Esencja Życia
 
-benchCategories.head = Head
-benchCategories.chest = Chest
-benchCategories.hands = Hands
-benchCategories.legs = Legs
-benchCategories.shield = Shield
+benchCategories.head = Głowa
+benchCategories.chest = Tułów
+benchCategories.hands = Ręce
+benchCategories.legs = Nogi
+benchCategories.shield = Tarcza
 
-benchCategories.combatPotions = Combat Potions
-benchCategories.miscPotions = Misc Potions
-benchCategories.bombs = Bombs
+benchCategories.combatPotions = Eliksiry Do Walki
+benchCategories.miscPotions = Różne Eliksiry
+benchCategories.bombs = Bomby
 
-benchCategories.portals = Portals
-benchCategories.misc = Misc
+benchCategories.portals = Portale
+benchCategories.misc = Różne
 
-benchCategories.prepared = Prepared
-benchCategories.baked = Baked
-benchCategories.ingredients = Ingredients
+benchCategories.prepared = Przygotowane
+benchCategories.baked = Upieczone
+benchCategories.ingredients = Składniki
 
-benchCategories.sword = Sword
-benchCategories.mace = Mace
-benchCategories.battleaxe = Battleaxe
-benchCategories.daggers = Daggers
-benchCategories.bow = Bow
+benchCategories.sword = Miecz
+benchCategories.mace = Buzdygan
+benchCategories.battleaxe = Topór Wojenny
+benchCategories.daggers = Sztylety
+benchCategories.bow = Łuk
 
-benchCategories.all = All
+benchCategories.all = Wszystko
 
 # === builderTools ===
 
@@ -7785,3 +7785,4 @@ universe.backup.error = An error has occurred while creating a backup: {message}
 
 world.spawn.notSet = World '{worldName}' doesn't have a spawn point set!
 world.notFound = Couldn't find world '{worldName}'!
+
