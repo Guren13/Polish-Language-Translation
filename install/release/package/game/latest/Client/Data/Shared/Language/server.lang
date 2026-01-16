@@ -123,7 +123,7 @@ assetTypes.ReachLocationMarkerAsset = Znacznik dotarcia do lokalizacji
 
 # Shops
 barter.klops_merchant.title = Kupiec Klops
-barter.kweebec_merchant.title = Kupiec Rootling
+barter.kweebec_merchant.title = Kupiec Kweebec
 
 # UI
 barter.customUI.barterPage.restocksToday = Dostawa dziś o {restockTime}
@@ -172,7 +172,7 @@ benchCategories.baked = Upieczone
 benchCategories.ingredients = Składniki
 
 benchCategories.sword = Miecz
-benchCategories.mace = Buzdygan
+benchCategories.mace = Buława
 benchCategories.battleaxe = Topór Wojenny
 benchCategories.daggers = Sztylety
 benchCategories.bow = Łuk
@@ -3539,30 +3539,35 @@ interactionHints.pickup = Naciśnij [{key}], aby podnieść {name}
 
 # === interactions ===
 
-interactions.invalidBlockState = Cannot perform {interaction} interaction on unsupported BlockState type {blockState}
-interactions.teleporter.failedCollectMore = Placement limit reached, collect more Memories to increase the limit!
-interactions.teleporter.failed = Placement limit reached
-interactions.didNotMount = Unknown mount error: {state}
-interactions.sleep.disabled = Sleeping is disabled in this world.
-interactions.sleep.gameTimePaused = Sleeping is disabled because game time is paused in this world!
-interactions.sleep.notWithinHours = You can't sleep at this hour.
-interactions.sleep.durationHours = {hours}h{mins}m
-interactions.sleep.durationMins = {mins}m
+interactions.invalidBlockState = Nie można wykonać akcji „{interaction}” na nieobsługiwanym typie BlockState: {blockState}
+
+interactions.teleporter.failedCollectMore = Osiągnięto limit rozmieszczeń – zbierz więcej Wspomnień, aby zwiększyć limit!
+interactions.teleporter.failed = Osiągnięto limit rozmieszczeń
+
+interactions.didNotMount = Nieznany błąd dosiadania: {state}
+
+interactions.sleep.disabled = Spanie jest wyłączone na tym świecie.
+interactions.sleep.gameTimePaused = Nie możesz spać, ponieważ czas gry jest wstrzymany na tym świecie.
+interactions.sleep.notWithinHours = Nie możesz spać o tej porze.
+interactions.sleep.durationHours = {hours}h {mins}min
+interactions.sleep.durationMins = {mins}min
 interactions.sleep.timeAM = {h}:{m} AM
 interactions.sleep.timePM = {h}:{m} PM
-interactions.sleep.sleepAtTheseHours = You may sleep starting at {time}. (in {until})
+interactions.sleep.sleepAtTheseHours = Możesz spać od {time}. (za {until})
+
 
 # === io ===
 
-io.landiscovery.enabled = Enabled LAN Discovery Thread
-io.landiscovery.alreadyToggled = LAN Discovery Thread is already {status}
-io.landiscovery.disabled = Disabled LAN Discovery Thread
-io.servermanager.bindings = Bindings:
-io.setuppackethandler.otherLoginAttempt = Someone tried to login with your account! We have disconnected the other user.
-io.gamepackethandler.localCommandDenied = Can't handle local command: {message}
-io.gamepackethandler.sceneUpdateSent = Scene update sent to all players
-io.gamepackethander.sceneUpdateSentToPlayer = Scene update sent to {name}
-io.gamepackethandler.playerNotFound = Unable to find player with name {name}
+io.landiscovery.enabled = Wątek wykrywania LAN włączony
+io.landiscovery.alreadyToggled = Wątek wykrywania LAN jest już {status}
+io.landiscovery.disabled = Wątek wykrywania LAN wyłączony
+io.servermanager.bindings = Powiązania:
+io.setuppackethandler.otherLoginAttempt = Ktoś próbował zalogować się na Twoje konto! Drugi użytkownik został rozłączony.
+io.gamepackethandler.localCommandDenied = Nie można wykonać lokalnej komendy: {message}
+io.gamepackethandler.sceneUpdateSent = Aktualizacja sceny wysłana do wszystkich graczy
+io.gamepackethander.sceneUpdateSentToPlayer = Aktualizacja sceny wysłana do gracza {name}
+io.gamepackethandler.playerNotFound = Nie znaleziono gracza o nazwie {name}
+
 
 # === itemSets ===
 
@@ -3699,7 +3704,7 @@ items.Armor_Wool_Hands.name = Wełniane bransolety
 items.Armor_Wool_Head.name = Wełniany kaptur
 items.Armor_Wool_Legs.name = Wełniane buty
 
-items.Bandage_Crude.description = Use to quickly regain health.\n\n<i>Though rudimentary, this type of bandage was favored by the knights of a lost civilization for the ease with which they could be fashioned from common materials on the battlefield.</i>
+items.Bandage_Crude.description = Użyj, aby szybko odzyskać zdrowie.\n\n<i>Choć prymitywny, ten typ bandaża był ceniony przez rycerzy zaginionej cywilizacji ze względu na łatwość, z jaką można go było wykonać z prostych materiałów bezpośrednio na polu bitwy.</i>
 items.Bandage_Crude.name = Bandaż
 items.Bandage_Potion_Test.name = Eliksir Bandażu Test
 items.Barrier.name = Blok Bariery
@@ -7794,6 +7799,7 @@ universe.backup.error = An error has occurred while creating a backup: {message}
 
 world.spawn.notSet = World '{worldName}' doesn't have a spawn point set!
 world.notFound = Couldn't find world '{worldName}'!
+
 
 
 
