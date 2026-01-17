@@ -1,2 +1,2 @@
-# Better-Polish-Translation-Hytale
+#Polish-Language-Translation-Hytale
 Hytale Game Polish Translation 
