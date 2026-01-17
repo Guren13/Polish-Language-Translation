@@ -2393,3 +2393,18 @@ feedback.success.bugreport = Twoje zgłoszenie błędu zostało wysłane. Zajmie
 feedback.success.submitMore = Wyślij kolejne
 
 bugReportButton.tooltip = Zgłoś błąd lub opinię
+# === patchline ===
+# Patchlines allow early release of content to help players test new features
+
+patchline.launchNotification.title = Wersja przedpremierowa Patchline
+patchline.launchNotification.text = Korzystasz z przedpremierowej wersji Patchline gry Hytale.\n\n\
+    Ta wersja może zawierać eksperymentalne funkcje oraz błędy.\n\n\
+    Twoja opinia pomaga nam ulepszać grę!
+
+patchline.worldWarning.title = Ostrzeżenie Patchline
+patchline.worldWarning.text = Za chwilę otworzysz świat uruchomiony na innej wersji Patchline.\n\n\
+    Otwarcie tego świata może wprowadzić zmiany, które wpłyną na zapis gry.\n\n\
+    Zalecamy utworzenie kopii zapasowej przed kontynuowaniem.
+patchline.worldWarning.openAnyway = Otwórz mimo to
+patchline.worldWarning.duplicateWorld = Zduplikuj świat
+
