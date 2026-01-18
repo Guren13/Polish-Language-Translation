@@ -6874,8 +6874,8 @@ items.Food_Cheese.description = [TMP] Natychmiastowo przywraca <color is="#fffff
 map.zone.Void = Pustka
 map.zone.Oceans = Oceany
 map.zone.Emerald_Wilds = Szmaragdowe Pustkowia
-map.zone.Howling_Sands = Wycie Piasków
-map.zone.Whisperfrost_Frontiers = Granice Szepta Mrozu
+map.zone.Howling_Sands = Wyjące Piaski
+map.zone.Whisperfrost_Frontiers = Granice Szeptu Mrozu
 map.zone.Devastated_Lands = Spustoszone Ziemie
 map.region.Zone1_Spawn = Pierwsze Wrota Echa
 map.region.Zone1_Tier1 = Płynące Równiny
