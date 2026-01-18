@@ -3706,6 +3706,25 @@ items.Armor_Wool_Hands.name = Wełniane bransolety
 items.Armor_Wool_Head.name = Wełniany kaptur
 items.Armor_Wool_Legs.name = Wełniane buty
 
+items.Armor_Thorium_Chest.name = Torowa zbroja
+items.Armor_Thorium_Hands.name = Torowe Rękawice
+items.Armor_Thorium_Head.name = Torowy hełm
+items.Armor_Thorium_Legs.name = Torowe nagolenniki
+
+items.Armor_Trooper_Chest.name = Pancerz Żołnierza
+items.Armor_Trooper_Head.name = Hełm Żołnierza
+items.Armor_Trooper_Legs.name = Spodnie Żołnierza
+
+items.Armor_Trork_Chest.name = Pancerz Wojownika Trork
+items.Armor_Trork_Hands.name = Rękawice Wojownika Trork
+items.Armor_Trork_Head.name = Hełm Wojownika Trork
+items.Armor_Trork_Legs.name = Spodnie Wojownika Trork
+
+items.Armor_Steel_Ancient_Chest.name = Starożytny Stalowy Pancerz
+items.Armor_Steel_Ancient_Hands.name = Starożytne Stalowe Rękawice
+items.Armor_Steel_Ancient_Head.name = Starożytny Stalowy Hełm
+items.Armor_Steel_Ancient_Legs.name = Starożytne Stalowe Nagolenniki
+
 items.Bandage_Crude.description = Użyj, aby szybko odzyskać zdrowie.\n\n<i>Choć prymitywny, ten typ bandaża był ceniony przez rycerzy zaginionej cywilizacji ze względu na łatwość, z jaką można go było wykonać z prostych materiałów bezpośrednio na polu bitwy.</i>
 items.Bandage_Crude.name = Bandaż
 items.Bandage_Potion_Test.name = Eliksir Bandażu Test
