@@ -286,7 +286,7 @@ builderTools.brush.rotation.None = 0
 builderTools.brush.rotation.Ninety = 90
 builderTools.brush.rotation.OneEighty = 180
 builderTools.brush.rotation.TwoSeventy = 270
-builderTools.tools.Layers.name = Narzędzie pędzla warstw
+builderTools.tools.Layers.name = Narzędzie Warstw
 builderTools.tools.Layers.description = Pozwala zastąpić istniejące bloki warstwami różnych materiałów
 builderTools.tools.Layers.args.aDirection.name = Kierunek warstwy
 builderTools.tools.Layers.args.aDirection.values.Up = Góra
@@ -347,9 +347,9 @@ builderTools.tools.Paint.args.BrushSpacing.description = Odległość między wy
 builderTools.tools.Sculpt.args.BrushDensity.name = Gęstość
 builderTools.tools.Sculpt.args.BrushSpacing.name = Odstęp
 builderTools.tools.Sculpt.args.BrushSpacing.description = Odległość między wykonaniami pędzla (0 = automatyczna interpolacja)
-builderTools.tools.Entity.name = Narzędzie chwytające istoty
+builderTools.tools.Entity.name = Narzędzie chwytania
 builderTools.tools.Entity.description = Pozwala przenosić i edytować istoty w świecie.
-builderTools.tools.Extrude.name = Narzędzie pędzla ekstrudacji
+builderTools.tools.Extrude.name = Narzędzie wytłaczanie
 builderTools.tools.Extrude.description = Pozwala ekstrudować powierzchnię koplanarną na zmienną głębokość.
 builderTools.tools.Extrude.args.ExtrudeRadius.name = Promień ekstrudacji
 builderTools.tools.Extrude.args.ExtrudeRadius.description = Maksymalny promień bloku, do którego powinna być zastosowana ekstrudacja
@@ -357,17 +357,17 @@ builderTools.tools.Extrude.args.ExtrudeDepth.name = Głębokość ekstrudacji
 builderTools.tools.Extrude.args.ExtrudeDepth.description = Liczba bloków głębokości do ekstrudacji powierzchni
 builderTools.tools.Extrude.args.ExtrudeMaterial.name = Materiał ekstrudacji
 builderTools.tools.Extrude.args.ExtrudeMaterial.description = Materiał zastępczy, który powinien być użyty do ekstrudacji
-builderTools.tools.Flood.name = Narzędzie pędzla zalania
+builderTools.tools.Flood.name = Narzędzie Wypełniające
 builderTools.tools.Flood.description = Pędzel zastępcze, który rozciąga się przez sąsiednie bloki tego samego typu
 builderTools.tools.Flood.args.TargetBlock.name = Materiał docelowy
 builderTools.tools.Flood.args.TargetBlock.description = Materiał bloku docelowego, do którego narzędzie powinno zalewać
 builderTools.tools.Hitbox.name = Narzędzie Hitbox
 builderTools.tools.Hitbox.description = Pozwala edytować dane hitbox'u dowolnego bloku w świecie
-builderTools.tools.SetAnchor.name = Narzędzie ustawiania kotwicy
+builderTools.tools.SetAnchor.name = Narzędzie Kotwicy
 builderTools.tools.SetAnchor.description = (Tylko edytor prefabrykatów) Pozwala ustawić punkt kotwicy prefabrykatu w instancji edytora prefabrykatów
-builderTools.tools.SelectPrefab.name = Narzędzie selekcji prefabrykatów
+builderTools.tools.SelectPrefab.name = Wybór prefabrykatów
 builderTools.tools.SelectPrefab.description = (Tylko edytor prefabrykatów) Pozwala wybierać całe prefabrykat y wewnątrz instancji edytora prefabrykatów
-builderTools.tools.Sculpt.name = Narzędzie pędzla rzeźbiącej
+builderTools.tools.Sculpt.name = Narzędzie rzeźbienia
 builderTools.tools.Sculpt.description = Uniwersalne narzędzie do podnoszenia, topienia i wygładzania bloków
 builderTools.tools.Sculpt.args.SmoothStrength.name = Siła wygładzania
 builderTools.tools.Ruler.name = Narzędzie linijki
@@ -411,15 +411,15 @@ builderTools.tools.Line.args.iLineType.values.Split = Podzielony
 builderTools.tools.Line.args.iLineType.values.Origin = Początek
 builderTools.tools.Machinima.name = Narzędzie Machinima
 builderTools.tools.Machinima.description = Pozwala tworzyć i edytować animacje Machinima w grze, używając kamer z kluczowymi klatkami, istot, graczy, cząsteczek i więcej!
-builderTools.tools.Noise.name = Narzędzie pędzla szumu
+builderTools.tools.Noise.name = Narzędzie Szumu
 builderTools.tools.Noise.description = Pozwala łatwo tworzyć losowy wzór szumu bloków
 builderTools.tools.Noise.args.BrushDensity.name = Gęstość pędzla
 builderTools.tools.Noise.args.BrushDensity.description = Ogólna gęstość, którą powinien zajmować umieszczony szum
-builderTools.tools.Paint.name = Narzędzie pędzla do malowania
+builderTools.tools.Paint.name = Narzędzie Malowania
 builderTools.tools.Paint.description = Uniwersalne narzędzie pędzla, które pozwala używać różnych materiałów i kształtów do edycji bloków
 builderTools.tools.Paste.name = Narzędzie wklejania
 builderTools.tools.Paste.description = Pozwala wkleić wcześniej skopiowany lub zapisany wybór bloku
-builderTools.tools.Scatter.name = Narzędzie pędzla rozrzucania
+builderTools.tools.Scatter.name = Narzędzie rozrzucania
 builderTools.tools.Scatter.description = Pozwala losowo rozrzucać bloki, określając skalę gęstości
 builderTools.tools.Scatter.args.BrushDensity.name = Gęstość pędzla
 builderTools.tools.Scatter.args.BrushDensity.description = Ogólna gęstość, którą powinien przyjąć efekt rozrzucania
@@ -569,7 +569,7 @@ builderTools.tools.Smooth.name = Narzędzie pędzla wygładzającego
 builderTools.tools.Smooth.description = Pozwala miękko przenikać i wygładzać szorstki teren
 builderTools.tools.Smooth.args.SmoothStrength.name = Siła wygładzania
 builderTools.tools.Smooth.args.SmoothStrength.description = Siła wygładzania, które powinno być zastosowane (1-3)
-builderTools.tools.Tint.name = Narzędzie pędzla odcienia
+builderTools.tools.Tint.name = Narzędzie odcienia
 builderTools.tools.Tint.description = Pozwala modyfikować kolor odcienia używanego w kolumnie bloku
 builderTools.tools.Tint.args.TintColor.name = Kolor odcienia
 builderTools.tools.Tint.args.TintColor.description = Wartość koloru szesnastkowego, na którą powinien być zmieniony odcień
@@ -4037,7 +4037,7 @@ items.Filter_Ores.name = Filtr - Rudy
 items.Filter_Ores.description = Filtr dla bloków rudy.
 items.Filter_PlantScatter.name = Filtr - Rozsiane Rośliny
 items.Filter_PlantScatter.description = Filtr dla małych roślin naziemnych.
-items.Filter_AllScatter.name = Filtr - Wszystkie Rozsiane
+items.Filter_AllScatter.name = Filtr - Rozpryskujący
 items.Filter_AllScatter.description = Filtr dla wszystkich rozsianych obiektów.
 items.Filter_TreeWood.description = Filtr dla drewna drzew.
 items.Filter_TreeWood.name = Filtr - Drewno Drzew
@@ -6961,6 +6961,7 @@ items.Food_Beef_Raw.description = [TMP] Natychmiastowo przywraca <color is="#fff
 items.Food_Bread.description = [TMP] Natychmiastowo przywraca <color is="#ffffff">15%</color> zdrowia.
 items.Food_Popcorn.description = [TMP] Natychmiastowo przywraca <color is="#ffffff">15%</color> zdrowia.
 items.Food_Cheese.description = [TMP] Natychmiastowo przywraca <color is="#ffffff">15%</color> zdrowia.
+items.Editor_Anchor.name = Edytor Kotwicy
 
 # === map ===
 
