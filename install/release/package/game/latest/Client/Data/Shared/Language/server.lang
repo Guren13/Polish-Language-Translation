@@ -3780,20 +3780,23 @@ items.Armor_Prisma_Hands.name = Pryzmatyczne Rękawice
 items.Armor_Prisma_Head.name = Pryzmatyczny Hełm
 items.Armor_Prisma_Legs.name = Pryzmatyczne Nagolenniki
 
-items.Armor_Mithril_Chest.name = Mithrilowa zbroja
-items.Armor_Mithril_Hands.name = Mithrilowe rękawice
-items.Armor_Mithril_Head.name = Mithrilowy hełm
+items.Armor_Mithril_Chest.name = Mithrilowa Zbroja
+items.Armor_Mithril_Hands.name = Mithrilowe Rękawice
+items.Armor_Mithril_Head.name = Mithrilowy Hełm
 items.Armor_Mithril_Legs.name = Mithrilowe nagolenniki
 
-items.Armor_Onyxium_Chest.name = Onyxiumowa zbroja
-items.Armor_Onyxium_Hands.name = Onyxiumowe rękawice
-items.Armor_Onyxium_Head.name = Onyxiumowy hełm
+items.Armor_Onyxium_Chest.name = Onyxiumowa Zbroja
+items.Armor_Onyxium_Hands.name = Onyxiumowe Rękawice
+items.Armor_Onyxium_Head.name = Onyxiumowy Hełm
 items.Armor_Onyxium_Legs.name = Onyxiumowe nagolenniki
 
 items.Armor_Prisma_Chest.name = Pryzmatyczny Pancerz
 items.Armor_Prisma_Hands.name = Pryzmatyczne Rękawice
 items.Armor_Prisma_Head.name = Pryzmatyczny Hełm
 items.Armor_Prisma_Legs.name = Pryzmatyczne Nagolenniki
+
+items.Armor_Kweebec_Chest.name = Pancerz Kweebec'a
+items.Armor_Kweebec_Head.name = Hełm Kweebec'a
 
 items.Armor_QA_Chest.name = QA Cuirass - HP
 items.Armor_QA_Hands.name = QA Hands - Signature Energy
@@ -6173,7 +6176,7 @@ items.Utility_Bag_Seed.name = Torba Nasion
 items.Utility_Bag_Seed.description = Eksperymentalny pojemnik, użyj na własne ryzyko.
 items.Utility_Helipack.name = Helipad
 items.Utility_Leather_Backpack.name = Skórzany Plecak
-items.Utility_Leather_Medium_Backpack.name = Duży Plecak
+items.Utility_Leather_Medium_Backpack.name = Średni Plecak
 items.Utility_Leather_Quiver.name = Skórzany Kołczan
 items.Vehicle_Wood_Boat.name = Drewniana Łódź
 items.Vehicle_Wood_Raft.name = Drewniana Tratwa
