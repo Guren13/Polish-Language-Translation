@@ -659,6 +659,7 @@ builderTools.copycut.copyFailedReason = Nie udało się skopiować zaznaczenia! 
 builderTools.copycut.noSelection = Nic nie masz zaznaczone!
 builderTools.commands.clearEntities.desc = Usunąć wszystkie istoty w bieżącym zaznaczeniu
 builderTools.commands.clearEntities.noSelection = Nic nie masz zaznaczone!
+commands.clearEntities.cleared = Usunięto {count, plural, one {1 jednostkę} other {{count, number} jednostek}} z zaznaczenia
 builderTools.commands.clearEntities.cleared = Usunięto {count, plural, one {1 jednostkę} other {{count, number} jednostek}} z zaznaczenia
 builderTools.edit.invalidBlockId = Nieprawidłowy identyfikator bloku: {id}
 builderTools.environment.envNotFound = Nie znaleziono środowiska o nazwie: {name}
