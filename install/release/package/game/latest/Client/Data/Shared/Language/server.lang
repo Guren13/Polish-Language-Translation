@@ -125,7 +125,7 @@ barter.kweebec_merchant.title = Kupiec Kweebec
 barter.customUI.barterPage.restocksToday = Dostawa Dziś O {restockTime}
 barter.customUI.barterPage.restocksTomorrow = Dostawa Jutro O {restockTime}
 barter.customUI.barterPage.restocksInDays = Dostawa Za {days} {days, plural, One {dzień} Other {dni}}
-barter.customUI.barterPage.noStock = <B>BRAK NA STANIE</B>
+barter.customUI.barterPage.noStock = <b>BRAK NA STANIE</b>
 barter.customUI.barterPage.inStock = Stan: {liczba}
 barter.customUI.barterPage.quantityStock = Masz: {count}
 barter.customUI.barterPage.invalidItem = Nieprawidłowy przedmiot
@@ -3191,7 +3191,7 @@ customUI.portalDevice.breachDescription = Przełamanie Próżni Rozpoczyna Się 
 customUI.portalDevice.timeLimitLabel = Limit czasu
 customUI.portalDevice.durationMins = {time} Min
 customUI.portalDevice.minutesToExplore = {time} Min Do Zgłębienia
-customUI.portalDevice.minutesVoidInvasion = {time} Min Podczas <Color Is="#B61A82">Przełamania Próżni</Color>
+customUI.portalDevice.minutesVoidInvasion = {time} Min Podczas <color is="#B61A82">Przełamania Próżni</color>
 customUI.portalDevice.wipText = [TMP]Ta Funkcja Jest W Fazie Rozwoju.
 customUI.prefabSpawnerSettingsPage.title = Ustawienia Spawera Prefabów
 customUI.prefabSpawnerSettingsPage.prefabPath = Ścieżka Prefabu
@@ -3418,7 +3418,7 @@ general.killedByCommand = Zginąłeś Z Ręki {displayName} Komendą '{commandNa
 general.killedByUnknown = Zginąłeś Z Nieznanego Powodu!
 general.killedEntity = Zabiłeś {entityName}!
 general.itemsLossPrevented = Utrata Przedmiotów Została Zablokowana Na Tym Świecie!
-general.itemsDurabilityLoss = Twoje Przedmioty Straciły <Color Is="#Be1717">{percentage}%</Color> Wytrzymałości!
+general.itemsDurabilityLoss = Twoje Przedmioty Straciły <color is="#Be1717">{percentage}%</color> Wytrzymałości!
 general.itemsAmountLoss = Upuściłeś Na Ziemię Następujące Przedmioty:
 general.interaction.configureInstance.noInstanceName = BlockState Nie Zawiera Nazwy Instancji
 general.etc = Itd.
@@ -6992,8 +6992,8 @@ memories.general.featureUnlockedMessage = Odbyliśmy Funkcję Wspomnienia!\NPod 
 memories.general.discovered.tooltipText = Wspomnienie Odkryte!
 memories.general.undiscovered.tooltipText = Kontynuuj Eksplorację, Aby Odkryć Do Wspomnienie!
 memories.general.memoriesLevelProgress = Poziom Wspomnień: {level} (Następny Poziom Za {count, plural, One {1 Wspomnienie} Other {{count, number} Wspomnień}})
-memories.general.chestLocked.tooltipText = [TMP] <Color Is="#990000"><B>Zablokowany</B></Color> \N<Color Is="#888888">Przywróć {count, number} {count, plural, One {wspomnienie} Other {wspomnienia}} Aby Odblokować.</Color>
-memories.general.chestActive.tooltipText = [TMP] <Color Is="#1Eab1E"><B>Odblokowany</B></Color> \N<Color Is="#888888">{liczba, liczba} {liczba, plural, One {wspomnienie} Other {wspomnienia}}</Color>
+memories.general.chestLocked.tooltipText = [TMP] <color is="#990000"><b>Zablokowany</b></color> \N<color is="#888888">Przywróć {count, number} {count, plural, One {wspomnienie} Other {wspomnienia}} Aby Odblokować.</color>
+memories.general.chestActive.tooltipText = [TMP] <color is="#1Eab1E"><b>Odblokowany</b></color> \N<color is="#888888">{liczba, liczba} {liczba, plural, One {wspomnienie} Other {wspomnienia}}</color>
 memories.general.chestActive.level1.rewards = [TMP] \NMożna Tworzyć Następujące:\N• +3 Dekoracyjne Kufry (Stół Meblowy)\N• +2 Wieczne Nasiona (Warsztat Rolnika)\N\NPrace W Toku
 memories.general.chestActive.level2.rewards = [TMP] \NMożna Tworzyć Następujące:\N• +3 Dekoracyjne Kufry (Stół Meblowy)\N• +4 Wieczne Nasiona (Warsztat Rolnika)\N\N+1 Maksymalne Teleportatory\N\NPrace W Toku
 memories.general.chestActive.level3.rewards = [TMP] \NMożna Tworzyć Następujące:\N• Miksturami Morfizmu (Stół Alchemika)\N• +3 Dekoracyjne Kufry (Stół Meblowy)\N• +4 Wieczne Nasiona (Warsztat Rolnika)\N\N+1 Maksymalne Teleportatory\N\NPrace W Toku
@@ -7727,11 +7727,11 @@ portals.jungles.description = Głęboko poniżej spustoszonych pustkowi pozosta�
 <msg key = "server.portals.niekompletne.opis"/>
 portals.undefined.obj1 = [TMP] Zrób Coś?
 portals.undefined.tip1 = [TMP] Bądź Gotowy!
-portals.taiga.tip1 = <Color Is="#05C09A">Mityczne Zwierzę Śpi Tutaj, Związane W\N\
+portals.taiga.tip1 = <color is="#05C09A">Mityczne Zwierzę Śpi Tutaj, Związane W\N\
 eternal slumber.</color>
-portals.hederas_lair.tip1 = <Color Is="#05C09A">Żarłoczna Zagrożenie Czai Się W Sercu Bagna.</Color>
-portals.hederas_lair.tip2 = <Color Is="#05C09A">Mętne Płycizny Są Domem Dla Niebezpiecznej Fauny.</Color>
-portals.windsurf_valley.tip1 = <Color Is="#05C09A">Czasami Tutaj Można Znaleźć Wieżę Maga.</Color>
+portals.hederas_lair.tip1 = <color is="#05C09A">Żarłoczna Zagrożenie Czai Się W Sercu Bagna.</color>
+portals.hederas_lair.tip2 = <color is="#05C09A">Mętne Płycizny Są Domem Dla Niebezpiecznej Fauny.</color>
+portals.windsurf_valley.tip1 = <color is="#05C09A">Czasami Tutaj Można Znaleźć Wieżę Maga.</color>
 portals.tags.orbis = [TMP] Orbis
 portals.tabs.zone1 = [TMP] Strefa 1
 portals.tags.corrupted = [TMP] Korupcja
