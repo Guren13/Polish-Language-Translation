@@ -1114,7 +1114,7 @@ commands.editprefab.save.error.multipleAnchors = Ten Prefab Ma Więcej Niż Jede
 commands.editprefab.save.error.unknownBlockIdKey = Nie Znaleziono Id Zasobu Dla Klucza Bloku: {key}
 commands.editprefab.desc = Polecenia Do Edycji Prefabów I Tworzenia Nowych
 commands.editprefab.info.desc = Daje Ogólne Informacje O Prefabie, Który Wybierasz
-commands.editprefab.info.format = Informacje O Prefabie ----\NŚcieżka: {path}\NWymiary: {dimensions}\NZmodyfikowane: {dirty}
+commands.editprefab.info.format = Informacje O Prefabie ----\nŚcieżka: {path}\nWymiary: {dimensions}\nZmodyfikowane: {dirty}
 commands.editprefab.info.dirty.yes = Tak (Niezapisane Zmiany)
 commands.editprefab.info.dirty.no = Nie
 commands.editprefab.load.desc = Utwórz Pusty Świat I Wklej Prefab Do Niego Aby Rozpocząć Edycję
@@ -1341,14 +1341,14 @@ commands.weather.reset.forcedWeatherReset = Zresetuj Wymuszać Pogodę W {worldN
 commands.message.container = Ta Wiadomość Zawiera: {content}
 commands.message.example = Liczba: {random}
 commands.notfound = Nie Znaleziono {typ}: {id}
-commands.parsing.usage.header = {fullyQualifiedName}: {opis} \N/{fullyQualifiedName} {listOfRequiredArgs}{requiresConfirmation}{requiredArgs}{optionalArgs}{defaultArgs}{flagArgs}{argTypes}{variants}{subcommands}
-commands.parsing.usage.requiresConfirmation = \NTo Polecenie Wymaga Flag Argumentu "--Potwierdź" Aby Zostało Określone W Celu Wykonania, Upewnij Się Abym Dokonał Podwójnej Kontroli Polecenia Przed Jego Uruchomieniem
-commands.parsing.usage.flagArgs = \NArgumenty Flag: {args}
-commands.parsing.usage.defaultArgs = \NArgumenty Wartości Domyślnej: {args}
-commands.parsing.usage.optionalArgs = \NArgumenty Opcjonalne: {args}
-commands.parsing.usage.requiredArgs = \NArgumenty Wymagane: {args}
+commands.parsing.usage.header = {fullyQualifiedName}: {opis} \n/{fullyQualifiedName} {listOfRequiredArgs}{requiresConfirmation}{requiredArgs}{optionalArgs}{defaultArgs}{flagArgs}{argTypes}{variants}{subcommands}
+commands.parsing.usage.requiresConfirmation = \nTo Polecenie Wymaga Flag Argumentu "--Potwierdź" Aby Zostało Określone W Celu Wykonania, Upewnij Się Abym Dokonał Podwójnej Kontroli Polecenia Przed Jego Uruchomieniem
+commands.parsing.usage.flagArgs = \nArgumenty Flag: {args}
+commands.parsing.usage.defaultArgs = \nArgumenty Wartości Domyślnej: {args}
+commands.parsing.usage.optionalArgs = \nArgumenty Opcjonalne: {args}
+commands.parsing.usage.requiredArgs = \nArgumenty Wymagane: {args}
 commands.parsing.usage.subcommands = {separator}{usage}
-commands.parsing.usage.subcommandSeparator = \N---------------------------------\N
+commands.parsing.usage.subcommandSeparator = \n---------------------------------\n
 commands.parsing.error.commandCollectionSubcommandNotFound = Nie znaleziono podpolecenia '{subcommand}', czy miałeś na myśli jedno z tych poleceń?: {suggestions}
 commands.parsing.error.wrongNumberOfParametersForArgument = Liczba argumentów dla argumentu '{argument}' nie jest poprawna. Oczekiwana: {expected}, aktualna: {actual}, Otrzymane wejście: "{input}".
 commands.parsing.error.noPermissionForCommand = Nie Masz Uprawnień Do Użycia Tego Polecenia.
@@ -1578,7 +1578,7 @@ commands.player.viewradius.set.success = Zasięg Widoku Ustawiony Na {radius, pl
     other {{radius, number} chunks}} ({radiusBlocks, plural, one {1 block} other {{radiusBlocks, number} blocks}})
 commands.sudo.invalidusage = Nieprawidłowy Usage! Valid Usage: /Su Gracz Command
 commands.sudo.player.desc = Gracz Do Run Command As (Or "*" Dla All Gracze)
-commands.whereami.header = Aktualnie jesteś:\N\
+commands.whereami.header = Aktualnie jesteś:\n\
   World: {world}\n\
   Chunk: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
   Position: {posX, number}, {posY, number}, {posZ, number}\n\
@@ -1586,7 +1586,7 @@ commands.whereami.header = Aktualnie jesteś:\N\
   Direction: {direction}\n\
   Axis Direction: {axisDirection}\n\
   Axis: {axis}\n
-commands.whereami.header.other = [TMP] {username} jest aktualnie:\N\
+commands.whereami.header.other = [TMP] {username} jest aktualnie:\n\
   World: {world}\n\
   Chunk: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
   Position: {posX, number}, {posY, number}, {posZ, number}\n\
@@ -1596,7 +1596,7 @@ commands.whereami.header.other = [TMP] {username} jest aktualnie:\N\
   Axis: {axis}\n
 commands.whereami.needsSaving = Wymaga Zapisania: {needsSaving}
 commands.whereami.chunkNotLoaded = Chunk nie jest wczytany!
-commands.whoami.header = Twój Gracz Info:\N\
+commands.whoami.header = Twój Gracz Info:\n\
   UUID: {uuid}\n\
   Username: {username}\n\
   Language: {language}\n
@@ -1650,7 +1650,7 @@ commands.world.perf.deltaMinMaxMetric = \tDelta ({time}): Min: {min}, Avg: {avg}
 commands.world.perf.all.desc = Show Delta Values In Addition Do TPS
 commands.world.perf.delta.desc = Show Delta Values Instead TPS
 commands.world.perf.graph.desc = Display A Graph TPS Over Time
-commands.world.perf.graph = TPS Graph {time}:\N
+commands.world.perf.graph = TPS Graph {time}:\n
 commands.world.perf.graph.width.desc = Szerokość Graph
 commands.world.perf.graph.width.default = 100 Characters
 commands.world.perf.graph.height.desc = Wysokość wykresu
@@ -1772,9 +1772,9 @@ commands.lightingcalculation.alreadyFullBright = Obliczanie Oświetlenia Fragmen
 commands.lightcalculation.setCalculationWithDelegate = Ustaw Obliczanie Oświetlenia Fragmentu Na Pełną Jasność Z Delegatem '{delegate}'!
 commands.lighting.info.desc = Wyświetl Informacje O Oświetleniu
 commands.lighting.info.detail.desc = Pokaż Szczegółowe Informacje O Fragmencie
-commands.lighting.info.summary = Rozmiar Kolejki: {queueSize, liczba}\N\
+commands.lighting.info.summary = Rozmiar Kolejki: {queueSize, liczba}\n\
     Light Calculation: {lightCalculation}
-commands.lighting.info.chunkDetails = Całkowite Sekcje Fragmentu: {totalChunkSections, number}\N\
+commands.lighting.info.chunkDetails = Całkowite Sekcje Fragmentu: {totalChunkSections, number}\n\
     Chunks With Local Light: {chunksWithLocalLight, number}\n\
     Chunks With Global Light: {chunksWithGlobalLight, number}
 commands.reset.playerReset = Resetuj Gracza: {uuid}
@@ -1815,7 +1815,7 @@ commands.stash.currentDroplist = Bieżąca Lista Upuszczana: {droplist}
 commands.stash.noDroplist = Brak Listy Upuszczanej Dla Kontenera.
 commands.validatecpb.desc = Weryfikuj Pliki CPB (Compressed Prefab Buffer)
 commands.validatecpb.path.desc = Ścieżka Do Weryfikacji (Opcjonalnie, Weryfikuje Wszystkie Pakiety Zasobów, Jeśli Nie Określono)
-commands.validatecpb.failed = Niepowodzenie:\N {niepowodzenie}\N
+commands.validatecpb.failed = Niepowodzenie:\n {niepowodzenie}\n
 commands.worldgen.reload.alreadyInProgress = Ponowne Załadowanie Generowania Świata Jest Już W Toku!
 commands.worldgen.reload.abort = Ktoś Inny Rozpoczął Ponowne Załadowanie Generowania Świata W Tym Samym Czasie. Przerwanie.
 commands.worldgen.desc = Polecenia Konfiguracji Generowania Świata
@@ -2327,7 +2327,7 @@ commands.chunk.maxsendrate.sec.desc = Maksimum Fragmentów Na Sekundę. Pominą�
 commands.chunk.maxsendrate.sec.set = Ustaw Maksimum Fragmentów Na Sekundę: {value, number}
 commands.chunk.maxsendrate.tick.desc = Maksimum Fragmentów Na Tyk. Pominąć Argument Aby Ustawić Na Domyślny.
 commands.chunk.maxsendrate.tick.set = Ustaw Maksimum Fragmentów Na Tyk: {value, number}
-commands.chunk.maxsendrate.summary = Maksymalne Tempo Wysyłania Fragmentów:\N\
+commands.chunk.maxsendrate.summary = Maksymalne Tempo Wysyłania Fragmentów:\n\
     \tPer second: {perSecond, number}\n\
     \tPer tick: {perTick, number}
 commands.chunk.fixHeightMap.started = Naprawianie Mapy Wysokości...
@@ -2350,13 +2350,13 @@ commands.chunkinfo.chunk = Fragment {chunkX}, {chunkZ}:\n\
   \tMetadata:\n\
   \tBlockChunk:\n\
     \t\tNeeds Saving: {savingChunk}\n
-commands.chunkinfo.section = \T\TSekcja {index}:\N
-commands.chunkinfo.dataType = \T\T\TTyp Danych: {data}\N
-commands.chunkinfo.sectionInfo = \T\T\TMa Tykanie: {ticking}\N\
+commands.chunkinfo.section = \T\TSekcja {index}:\n
+commands.chunkinfo.dataType = \T\T\TTyp Danych: {data}\n
+commands.chunkinfo.sectionInfo = \T\T\TMa Tykanie: {ticking}\n\
       \t\t\tIs Solid Air: {solidAir}\n\
       \t\t\tBlock Count: {count}\n\
       \t\t\tBlock Counts: {counts}\n
-commands.chunkinfo.blockStateChunk = \TBlockowy Fragment Stanu:\N\
+commands.chunkinfo.blockStateChunk = \TBlockowy Fragment Stanu:\n\
     \t\tNeeds Saving: {saving}\n\
     \t\tBlock States: {countStates}\n\
     \t\tUnknown Block States: {countUnknown}\n\
@@ -2376,7 +2376,7 @@ commands.ping.graph.width.desc = Szerokość Wykresu
 commands.ping.graph.width.default = 100
 commands.ping.graph.height.desc = Wysokość Wykresu
 commands.ping.graph.height.default = 10
-commands.ping.graph.period = Wykres Ping {time}:\N
+commands.ping.graph.period = Wykres Ping {time}:\n
 commands.ping.historyCleared = Historia Ping Wyczyszczona
 commands.player.stats.desc = Prefiks Dla Poleceń Operacji Statystyk Gracza
 commands.player.stats.dump.desc = Zrzuć Wartości Statystyk Dla Gracza Do Konsoli I Czatu
@@ -2455,24 +2455,24 @@ commands.server.desc = Polecenia Związane Z Serwerem
 commands.server.stats.desc = Dostarczaj Statystyk O Maszynie Go\U015Bcinnej Serwera
 commands.server.stats.fullInfoUnavailable = Pełne Informacje Niedostępne (Host Nieobsługiwany)
 commands.server.stats.cpu.desc = Dostarczaj Statystyk Procesora
-commands.server.stats.cpu.fullUsageInfo = Obciążenie CPU Systemu: {systemLoad, number}\N\
+commands.server.stats.cpu.fullUsageInfo = Obciążenie CPU Systemu: {systemLoad, number}\n\
     Process CPU Load: {processLoad, number}
-commands.server.stats.cpu.usageInfo = Średnia Obciążenia: {loadAverage, number}\N\
+commands.server.stats.cpu.usageInfo = Średnia Obciążenia: {loadAverage, number}\n\
     Process Uptime: {processUptime}
 commands.server.stats.gc.desc = Dostarczaj Statystyk GC
-commands.server.stats.gc.usageInfo = Nazwa: {nazwa}\N\
+commands.server.stats.gc.usageInfo = Nazwa: {nazwa}\n\
     Memory Pool Names: {poolNames}\n\
     Collection Count: {collectionCount, number}\n\
     Collection Time: {collectionTime}
 commands.server.stats.memory.desc = Dostarczaj Statystyk Użycia Pamięci
-commands.server.stats.memory.fullUsageInfo = Całkowita Pamięć Fizyczna: {totalPhysicalMemory}\N\
+commands.server.stats.memory.fullUsageInfo = Całkowita Pamięć Fizyczna: {totalPhysicalMemory}\n\
     Free Physical Memory: {freePhysicalMemory}\n\
     Total Swap Memory: {totalSwapMemory}\n\
     Free Swap Memory: {freeSwapMemory}
-commands.server.stats.memory.usageInfo = Użycie Pamięci Sterty:\N{heapMemoryUsage}\N\
+commands.server.stats.memory.usageInfo = Użycie Pamięci Sterty:\n{heapMemoryUsage}\n\
     Non-Heap Memory Usage:\n{nonHeapMemoryUsage}\n\
     Objects Pending Finalization: {objectsPendingFinalizationCount, number}
-commands.server.stats.memory.usage = \TInit: {init}\N\
+commands.server.stats.memory.usage = \TInit: {init}\n\
     \tUsed: {used}\n\
     \tCommitted: {committed}\n\
     \tMax: {max}\n\
@@ -2631,14 +2631,14 @@ commands.inventory.backpack.resized = Pojemność Plecaka Zmieniona Rozmiarą Do
     other {{dropped, number} items}})
 commands.inventory.item.noItemInHand = Gracz Musi Trzymać Przedmiot
 commands.inventory.item.noContainerOnItem = Przedmiot Nie Ma Kontenera
-commands.entityTracker.summary = Jednostki:\N\
+commands.entityTracker.summary = Jednostki:\n\
     \tVisible: {visibleCount, number}\n\
     \tLOD Excluded: {lodExcludedCount, number}\n\
     \tHidden: {hiddenCount, number}\n\
     \tTotal: {totalCount, number}\n\
     World Total: {worldTotalCount, number}\n\
     View Radius: {viewRadius, number} ({viewRadiusBlocks, number})
-commands.chunkTracker.loaded = # = Gorące, & = Zimne, % = Wczytywanie, X = Wymaga Wyładowania, ' ' = Nie Wczytane\N\
+commands.chunkTracker.loaded = # = Gorące, & = Zimne, % = Wczytywanie, X = Wymaga Wyładowania, ' ' = Nie Wczytane\n\
     {grid}\n\
     View Radius: {viewRadius, number}\n\
     Sent View Radius: {sentViewRadius, number}\n\
@@ -2646,7 +2646,7 @@ commands.chunkTracker.loaded = # = Gorące, & = Zimne, % = Wczytywanie, X = Wyma
     Ready For Chunks: {readyForChunks}\n\
     Loaded: {loaded, number}\n\
     Loading: {loading, number}
-commands.chunkTracker.summary = Fragmenty:\N\
+commands.chunkTracker.summary = Fragmenty:\n\
     \tMax chunks per second: {maxChunksPerSecond, number}\n\
     \tMax chunks per tick: {maxChunksPerTick, number}\n\
     \tChunk loaded radius:\n\
@@ -2673,7 +2673,7 @@ commands.interaction.snapshotSource.set.snapshotSource.desc = Źródło Migawki 
 commands.interaction.snapshotSource.set = Źródło Migawki Ustawione Na: {source}
 commands.interaction.clear.desc = Wyczyść Interakcje Gracza
 commands.debugplayerposition.desc = Być Może Pomoże W Debugowaniu Pozycji Gracza (Dla Desynchronizacji Klienta)
-commands.debugplayerposition.result = Twoje Pozycje:\N\
+commands.debugplayerposition.result = Twoje Pozycje:\n\
     Position: {bodyPosition}\n\
     Rotation: {bodyRotation}\n\
     Head Rotation: {headRotation}\n\
@@ -2685,7 +2685,7 @@ commands.packetStats.packet.desc = Nazwa Pakietu Do Uzyskania Statystyk
 commands.packetStats.notFound = Brak Statystyk Pakietów Dla '{name}'
 commands.packetStats.notAvailable = Statystyki Pakietów Niedostępne
 commands.packetStats.row = Liczba: {count, number}, Rozmiar: {size}, Średnia: {avg}, Min: {min}, Maks: {max}
-commands.packetStats.stats = Statystyki Pakietu {nazwa} [#{id, liczba}]\N\
+commands.packetStats.stats = Statystyki Pakietu {nazwa} [#{id, liczba}]\n\
     Sent:\n\
     \tTotal: {sentTotal}\n\
     \tRecent: {sentRecent}\n\
@@ -2737,12 +2737,12 @@ commands.npc.blackboard.roleReserved = {role} Zarezerwowany!
 commands.npc.blackboard.roleReleased = {role} Zwolniony!
 commands.npc.blackboard.chunk.notLoaded = Fragment Nie Wczytany
 commands.npc.blackboard.chunk.noEntry = Brak Wpisu
-commands.npc.blackboard.chunk.entries = ]\N Wpisy:\N
-commands.npc.blackboard.chunk.blockSet = Zestaw Bloków: {id}\N  Bloki:
+commands.npc.blackboard.chunk.entries = ]\n Wpisy:\n
+commands.npc.blackboard.chunk.blockSet = Zestaw Bloków: {id}\n  Bloki:
 commands.npc.blackboard.views.title = Widoki Tablicy Ogłoszeń:
-commands.npc.blackboard.views.partialViews = Całkowite Widoki Częściowe: {count}\NWidoki:\N
+commands.npc.blackboard.views.partialViews = Całkowite Widoki Częściowe: {count}\nWidoki:\n
 commands.npc.blackboard.views.view = Widok ({x}, {z}) Jednostki: {size}, Zestawy bloków: {cardinal}
-commands.npc.blackboard.chunks.chunkInfo = Informacje Fragmentu Tablicy Ogłoszeń:\N\
+commands.npc.blackboard.chunks.chunkInfo = Informacje Fragmentu Tablicy Ogłoszeń:\n\
   \tTotal sections: {nb}\n\
   \tChunk sections:\n
 commands.npc.blackboard.chunks.detailed_entry = \t{x}, {y}, {z} ({count} wpisów, {blockSets} Zestaw bloków)\n
@@ -2751,17 +2751,17 @@ commands.npc.blackboard.chunk.entry = Wpis fragmentu tablicy ogłoszeń {index} 
 commands.npc.blackboard.view.title = Widok ({x}, {z})
 commands.npc.blackboard.view.coordinates = Obejmuje współrzędne świata: ({x1}, {z1}) do ({x2}, {z2})
 commands.npc.blackboard.view.noPartialViews = Brak Częściowego Widoku
-commands.npc.blackboard.view.entities = ]\N Jednostki ({liczba}):\N
-commands.npc.blackboard.view.blockSets = \N    Zestawy Bloków: [
+commands.npc.blackboard.view.entities = ]\n Jednostki ({liczba}):\n
+commands.npc.blackboard.view.blockSets = \n    Zestawy Bloków: [
 commands.npc.blackboard.view.invalidEntity = !!!NIEWAŻNA JEDNOSTKA!!!
 commands.npc.blackboard.view.nonNpcEntity = !!!JEDNOSTKA NPC!!!
-commands.npc.blackboard.blockevents.title = Widok Zdarzenia Bloku:\N Ca\U0142Kowite Zestawy Bloków: {count}\N Zestawy Bloków:\N
-commands.npc.blackboard.entityevents.title = Widok Zdarzenia Jednostki:\N Całkowite Grupy NPC: {count}\N Grupy NPC:\N
-commands.npc.blackboard.resourceviews.title = Widoki Zasobów:\N
-commands.npc.blackboard.resourceviews.totalViews = Całkowite Widoki Zasobów: {count}\N Widoki:\N
+commands.npc.blackboard.blockevents.title = Widok Zdarzenia Bloku:\n Ca\U0142Kowite Zestawy Bloków: {count}\n Zestawy Bloków:\n
+commands.npc.blackboard.entityevents.title = Widok Zdarzenia Jednostki:\n Całkowite Grupy NPC: {count}\n Grupy NPC:\n
+commands.npc.blackboard.resourceviews.title = Widoki Zasobów:\n
+commands.npc.blackboard.resourceviews.totalViews = Całkowite Widoki Zasobów: {count}\n Widoki:\n
 commands.npc.blackboard.resourceviews.view = Widok ({x}, {z}) Rezerwacje: {count}\n
 commands.npc.blackboard.resourceview.noResourceView = Brak Widoku Zasobów
-commands.npc.blackboard.resourceview.reservations = Rezerwacje: [\N
+commands.npc.blackboard.resourceview.reservations = Rezerwacje: [\n
 commands.npc.blackboard.resourceview.reservedBlock = zarezerwowany blok {name} w {x}, {y}, {z}\n
 commands.npc.command.angle.desc = Pół-Kąt Stożka Przeszukiwania W Stopniach (Między 0 A 180, 0 = Promień, 180 = Pełna Sfera)
 commands.npc.command.range.desc = Zasięg Przeszukiwania W Blokach
@@ -2783,9 +2783,9 @@ commands.npc.debug.presets.desc = Pokaż Wszystkie Dostępne Flagi Debugowania I
 commands.npc.debug.presets.preset.desc = Nazwa Ustawienia Do Pokazania Flag
 commands.npc.debug.currentFlags = Rola {role} - Bieżące Flagi Debugowania: {flags}
 commands.npc.debug.debugFlagsSet = Rola {role} - Flagi Debugowania Ustawione Na: {flags}
-commands.npc.debug.presets.info = Flagi Debugowania NPC:\N{flags}\N\N\
+commands.npc.debug.presets.info = Flagi Debugowania NPC:\n{flags}\n\n\
   NPC debug presets:\n{presets}\n\n
-commands.npc.debug.preset.info = Flagi Debugowania NPC Dla Ustawienia {preset}:\N{flags}\N\N
+commands.npc.debug.preset.info = Flagi Debugowania NPC Dla Ustawienia {preset}:\n{flags}\n\n
 commands.npc.dump.desc = Zrzuć Wszystkie Informacje Komponentu NPC
 commands.npc.dump.json = Zrzuć W Formacie Json
 commands.npc.flock.desc = Dodaj Lub Usuń NPC Ze Stada
@@ -2814,7 +2814,7 @@ commands.npc.runtests.abort.desc = Przerwij Obecny Uruchomiony Zestaw Testów
 commands.npc.runtests.specifyroles = Role Muszą Być Najpierw Określone Do Testowania Przy Użyciu Flagi --Roles Lub --Preset!
 commands.npc.runtests.invalidflocksize = Nieprawidłowy Rozmiar Stada Dla {role}
 commands.npc.runtests.testing = Testowanie: {role}
-commands.npc.runtests.results = Wyniki:\N
+commands.npc.runtests.results = Wyniki:\n
 commands.npc.runtests.pass = Zdany
 commands.npc.runtests.fail = Niezda
 commands.npc.runtests.notrun = Nie Uruchomiono
@@ -3007,7 +3007,7 @@ commands.importimage.desc = Otwórz Narzędzie Importu Obrazu Na Bloki
 commands.auth.desc = Zarządzaj Autentykacją Serwera
 # Auth status
 commands.auth.status.desc = Pokaż Obecny Stan Autentykacji
-commands.auth.status.format = === Stan Autentykacji Serwera ===\N\
+commands.auth.status.format = === Stan Autentykacji Serwera ===\n\
     Connection Auth: {connectionMode}\n\
     Token Source: {tokenMode}\n\
     Profile: {profile}\n\
@@ -3071,7 +3071,7 @@ commands.auth.persistence.available = Dostępne Typy: {types}
 commands.auth.persistence.type.desc = Typ Przechowywania (Np. Wspomnienie, File)
 commands.auth.persistence.variant.desc = Zmień Metodę Przechowywania Poświadczeń
 # Auth login persistence feedback
-commands.auth.login.persistence.memory = OSTRZEŻENIE: Poświadczenia Przechowywane Tylko W Pamięci - Zostaną Utracone Po Ponownym Uruchomieniu!\N\
+commands.auth.login.persistence.memory = OSTRZEŻENIE: Poświadczenia Przechowywane Tylko W Pamięci - Zostaną Utracone Po Ponownym Uruchomieniu!\n\
     To persist credentials, run: /auth persistence <type>\n\
     Available types: {types}
 commands.auth.login.persistence.saved = Poświadczenia Zapisane Przy Użyciu: {type}
@@ -3226,7 +3226,7 @@ customUI.configureInstanceBlockPage.closeOnBlockRemove = Zamknij Po Usunięciu B
 customUI.configureInstanceBlockPage.removeBlockAfter = Usuń Blok Po (Sekundy):
 customUI.nameRespawnPoint.title = Ustaw Punkt Odrodzenia
 customUI.overrideNearbyRespawnPoint.title = Zastąpić Pobliski Punkt Odrodzenia
-customUI.overrideNearbyRespawnPoint.label = Następujący Punkt Odrodzenia {respawnPointCount, plural, One {jest}, Other {są}} Za Blisko (Minimalna Odległość Do {minDistance, plural, One {{minDistance, Number} Blok}, Other {{minDistance, number} Bloków}}) Do Obecnego Punktu Odrodzenia I Zostaną Usunięte.\N\NCzy Chcesz Kontynuować?
+customUI.overrideNearbyRespawnPoint.label = Następujący Punkt Odrodzenia {respawnPointCount, plural, One {jest}, Other {są}} Za Blisko (Minimalna Odległość Do {minDistance, plural, One {{minDistance, Number} Blok}, Other {{minDistance, number} Bloków}}) Do Obecnego Punktu Odrodzenia I Zostaną Usunięte.\n\nCzy Chcesz Kontynuować?
 customUI.selectOverrideRespawnPoint.title = Wybierz Punkt Odrodzenia Do Zastąpienia
 customUI.needToSelectRespawnPoint = Musisz Wybrać Punkt Odrodzenia!
 customUI.needToSetName = Musisz Ustawić Nazwę Dla Punktu Odrodzenia!
@@ -6988,17 +6988,17 @@ memories.general.categories = Kategorie
 memories.general.recordNum = Rekord {count, number} {count, plural, One {wspomnienie}, Other {wspomnień}}
 memories.general.collected = Zebrano Nowe Wspomnienie! '{memoryTitle}' Odkryte!
 memories.general.featureUnlockedNotification = Wspomnienia Odblokowane! Eksploruj Wiele Wersji Orbis, Aby Zbierać Wspomnienia!
-memories.general.featureUnlockedMessage = Odbyliśmy Funkcję Wspomnienia!\NPod Czas Spotykania Stworzeń Będziesz Zbierać Wspomnienia, Które Będą Przechowywane W Twoim Ekwipunku.\NPrzywnieś Te Wspomnienia Do Serca Orbis, Aby Je Nagrać I Odblokować Nagrody!
+memories.general.featureUnlockedMessage = Odbyliśmy Funkcję Wspomnienia!\nPod Czas Spotykania Stworzeń Będziesz Zbierać Wspomnienia, Które Będą Przechowywane W Twoim Ekwipunku.\nPrzywnieś Te Wspomnienia Do Serca Orbis, Aby Je Nagrać I Odblokować Nagrody!
 memories.general.discovered.tooltipText = Wspomnienie Odkryte!
 memories.general.undiscovered.tooltipText = Kontynuuj Eksplorację, Aby Odkryć Do Wspomnienie!
 memories.general.memoriesLevelProgress = Poziom Wspomnień: {level} (Następny Poziom Za {count, plural, One {1 Wspomnienie} Other {{count, number} Wspomnień}})
-memories.general.chestLocked.tooltipText = [TMP] <color is="#990000"><b>Zablokowany</b></color> \N<color is="#888888">Przywróć {count, number} {count, plural, One {wspomnienie} Other {wspomnienia}} Aby Odblokować.</color>
-memories.general.chestActive.tooltipText = [TMP] <color is="#1Eab1E"><b>Odblokowany</b></color> \N<color is="#888888">{liczba, liczba} {liczba, plural, One {wspomnienie} Other {wspomnienia}}</color>
-memories.general.chestActive.level1.rewards = [TMP] \NMożna Tworzyć Następujące:\N• +3 Dekoracyjne Kufry (Stół Meblowy)\N• +2 Wieczne Nasiona (Warsztat Rolnika)\N\NPrace W Toku
-memories.general.chestActive.level2.rewards = [TMP] \NMożna Tworzyć Następujące:\N• +3 Dekoracyjne Kufry (Stół Meblowy)\N• +4 Wieczne Nasiona (Warsztat Rolnika)\N\N+1 Maksymalne Teleportatory\N\NPrace W Toku
-memories.general.chestActive.level3.rewards = [TMP] \NMożna Tworzyć Następujące:\N• Miksturami Morfizmu (Stół Alchemika)\N• +3 Dekoracyjne Kufry (Stół Meblowy)\N• +4 Wieczne Nasiona (Warsztat Rolnika)\N\N+1 Maksymalne Teleportatory\N\NPrace W Toku
-memories.general.chestActive.level4.rewards = [TMP] \NMożna Tworzyć Następujące:\N• Starożytna Brama (Stół Arcanisty)\N• Fragmenty Portalu (Stół Arcanisty)\N• Ulepszeń Plecaka II (Stół Warsztatowy)\N• +3 Dekoracyjne Kufry (Stół Meblowy)\N• +2 Wieczne Nasiona (Warsztat Rolnika)\N\N+2 Maksymalne Teleportatory\N\NPrace W Toku
-memories.general.chestActive.level5.rewards = [TMP] \NMożna Tworzyć Następujące:\N• Trofeum Żniwa (Warsztat Rolnika)\N• +2 Dekoracyjne Kufry (Stół Meblowy)\N• +2 Wieczne Nasiona (Warsztat Rolnika)\N\N+2 Maksymalne Teleportatory\N\NPrace W Toku
+memories.general.chestLocked.tooltipText = [TMP] <color is="#990000"><b>Zablokowany</b></color> \n<color is="#888888">Przywróć {count, number} {count, plural, One {wspomnienie} Other {wspomnienia}} Aby Odblokować.</color>
+memories.general.chestActive.tooltipText = [TMP] <color is="#1Eab1E"><b>Odblokowany</b></color> \n<color is="#888888">{liczba, liczba} {liczba, plural, One {wspomnienie} Other {wspomnienia}}</color>
+memories.general.chestActive.level1.rewards = [TMP] \nMożna Tworzyć Następujące:\n• +3 Dekoracyjne Kufry (Stół Meblowy)\n• +2 Wieczne Nasiona (Warsztat Rolnika)\n\nPrace W Toku
+memories.general.chestActive.level2.rewards = [TMP] \nMożna Tworzyć Następujące:\n• +3 Dekoracyjne Kufry (Stół Meblowy)\n• +4 Wieczne Nasiona (Warsztat Rolnika)\n\n+1 Maksymalne Teleportatory\n\nPrace W Toku
+memories.general.chestActive.level3.rewards = [TMP] \nMożna Tworzyć Następujące:\n• Miksturami Morfizmu (Stół Alchemika)\n• +3 Dekoracyjne Kufry (Stół Meblowy)\n• +4 Wieczne Nasiona (Warsztat Rolnika)\n\n+1 Maksymalne Teleportatory\n\nPrace W Toku
+memories.general.chestActive.level4.rewards = [TMP] \nMożna Tworzyć Następujące:\n• Starożytna Brama (Stół Arcanisty)\n• Fragmenty Portalu (Stół Arcanisty)\n• Ulepszeń Plecaka II (Stół Warsztatowy)\n• +3 Dekoracyjne Kufry (Stół Meblowy)\n• +2 Wieczne Nasiona (Warsztat Rolnika)\n\n+2 Maksymalne Teleportatory\n\nPrace W Toku
+memories.general.chestActive.level5.rewards = [TMP] \nMożna Tworzyć Następujące:\n• Trofeum Żniwa (Warsztat Rolnika)\n• +2 Dekoracyjne Kufry (Stół Meblowy)\n• +2 Wieczne Nasiona (Warsztat Rolnika)\n\n+2 Maksymalne Teleportatory\n\nPrace W Toku
 memories.general.memoriesLevelMax = Poziom Wspomnień: {level} (Poziom Maksymalny)
 memories.general.totalCollected = Razem Zebrano:
 memories.general.foundIn = Znaleziono w {location}, {time}
@@ -7053,7 +7053,7 @@ modules.sp.serverAccessUpdated = Aktualizacja Dostępu Do Serwera: {access}
 modules.pathNotValid = {path} Nie Jest Prawidłową Nazwą Pliku!
 modules.error = Błąd: {msg}
 modules.command.invalidArgs = Nieprawidłowe Argumenty! {msg}
-modules.command.usage = Użycie:\N
+modules.command.usage = Użycie:\n
 modules.command.usage.help = Uruchom Z Opcją '--Help', Aby Uzyskać Szczegółowe Instrukcje Dotyczące Użycia.
 modules.command.failed = Nie Udało Się Uruchomić Polecenia: {msg}
 modules.command.runtimeError = Podczas Uruchamiania Tego Polecenia Doszło Do Błędu. Sprawdź Konsolę.
@@ -7072,10 +7072,10 @@ npc.npcpath.pathMustBeLoaded = Ścieżka {path} musi istnieć i być załadowana
 npc.npcpath.noSuchPath = Brak Takiej Ścieżki {path} Z WorldgenId {worldgenId}
 npc.npcpath.editingPath = Teraz Edytowanie Ścieżki: {path}
 npc.npcpath.pathMergedInto = Ścieżka {targetPathName} Scalona W Ścieżkę {activePathName}
-npc.npcpath.list.prefabPaths = Aktywne Ścieżki Prefabów:\N
+npc.npcpath.list.prefabPaths = Aktywne Ścieżki Prefabów:\n
 npc.npcpath.list.details = \t{worldGenId}.{pathId} {pathName} [ Długość: {length}, Załadowane węzły: {count} ]\n
-npc.npcpath.nodes.pathDesc = Ścieżka [ {name} ]:\N Długość: {length}\N W Pełni Załadowana: {isLoaded}\N Punkty Drogi:
-npc.npcpath.nodes.waypointNotLoaded = \N  #{index} (Nie Załadowany)
+npc.npcpath.nodes.pathDesc = Ścieżka [ {name} ]:\n Długość: {length}\n W Pełni Załadowana: {isLoaded}\n Punkty Drogi:
+npc.npcpath.nodes.waypointNotLoaded = \n  #{index} (Nie Załadowany)
 npc.spawn.spawnedOne = Spawned NPC: {typ}
 npc.spawn.spawnedMany = Spawned {quantity}X NPC: {typ}
 npc.npcpath.nodes.node = \n\t#{index} ({posX}, {posY}, {posZ})\n\
@@ -7727,7 +7727,7 @@ portals.jungles.description = Głęboko poniżej spustoszonych pustkowi pozosta�
 <msg key = "server.portals.niekompletne.opis"/>
 portals.undefined.obj1 = [TMP] Zrób Coś?
 portals.undefined.tip1 = [TMP] Bądź Gotowy!
-portals.taiga.tip1 = <color is="#05C09A">Mityczne Zwierzę Śpi Tutaj, Związane W\N\
+portals.taiga.tip1 = <color is="#05C09A">Mityczne Zwierzę Śpi Tutaj, Związane W\n\
 eternal slumber.</color>
 portals.hederas_lair.tip1 = <color is="#05C09A">Żarłoczna Zagrożenie Czai Się W Sercu Bagna.</color>
 portals.hederas_lair.tip2 = <color is="#05C09A">Mętne Płycizny Są Domem Dla Niebezpiecznej Fauny.</color>
